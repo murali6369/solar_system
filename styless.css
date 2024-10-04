@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container1{
+    
+    border-radius:50px;
+    border:3px solid black;
+    background:linear-gradient(gray,whitesmoke,white);
+    margin-top:0px;
+    padding-top:0px;
+    text-align: center;
+    margin-bottom:50px;
+   padding:15px;
+  
+  }
+  .content{
+    display:flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+  }
+  .content a{
+    text-decoration: none;
+    color: black;
+   padding:10px;
+   font-weight: 600;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+.heading{
+    font-size:35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: oblique;
+    color:black;
+}
+
+.heading1{
+    font-size:35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: oblique;
+    color:black;
+}
+
+.para{
+    font-size:15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:gray;
+    font-weight:400;
+    content:justify;
+    word-spacing: 2px;
+    line-height: 22px;
+    text-shadow: 1px;
+    text-align: justify;
+}
+
+
+
+#container{    
+    padding:10px;
+    background-color: rgb(1, 1, 31);
+    margin-top:0;
+    
+  
+}
+
+.sub-container{
+    display:flex; 
+    justify-content: space-evenly;
+}
+
+.sub-container1{
+    display:flex; 
+    justify-content: space-evenly;
+    margin-left:100px;
+}
+
+#main-container{
+    position:relative;
+    width:430px;
+    height:450px;
+    margin-bottom: 40px;
+}
+
+
+
+#card,#card1,#card2,#card3,#card4,#card5,#card6,#card7,#card8{
+    position: absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition:all 2s ease;
+    
+    background:gray;
+    border-radius:20px;
+    box-shadow: 2px 5px 10px black,
+                2px 5px 10px gray,
+                2px 5px 10px white;
+    
+}
+
+#card:hover{
+    transform:rotateY(180deg);
+}
+
+#card1:hover{
+    transform:rotateY(180deg);
+}
+
+
+#card2:hover{
+    transform:rotateY(180deg);}
+
+#card3:hover{
+    transform:rotateY(180deg);}
+
+#card4:hover{
+    transform:rotateY(180deg);}
+
+
+#card5:hover{
+    transform:rotateY(180deg);}
+
+#card6:hover{
+    transform:rotateY(180deg);}
+
+#card7:hover{
+    transform:rotateY(180deg);}
+
+#card8:hover{
+    transform:rotateY(180deg);}
+
+
+
+
+#front{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility: hidden;
+    background:black;
+    color:#333;
+    border-radius:20px;
+}
+
+#back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility: hidden;
+    background:white;
+    color:black;
+    align-content: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    transform:rotateY(180deg);
+    border-radius:20px;
+    padding:25px;
+}
+
+
+
+#card img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:35px;
+}
+
+
+#card1 img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+}
+
+#card2 img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+}
+
+#card3 img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+}
+
+#card4 img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+}
+
+#card5 img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+}
+
+#card6 img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+}
+
+#card7 img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+}
+
+#card8 img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+}
+
+#card9 img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+}
+
+.img1{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+}

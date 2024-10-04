@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container{
+    background: transparent;
+    background-color: rgb(0, 0, 0, 0.10);
+    padding-bottom: 20px;
+  }
+  .content{
+    background: url(https://cdn.mos.cms.futurecdn.net/Tqq3BVZZAkbUyGvZmSfjQW-1200-80.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 30px;
+  }
+  .content>a{
+    text-decoration: none;
+    color: #fff;
+    margin: 80px;
+    
+  }
+
+  .content1{
+    color: white;
+    padding-top: 200px;
+    padding-left: 30px;
+    font-size: 4rem;
+    font-weight: 900;
+  }
+
+  .content2{
+    color: white;
+    padding-left: 50px;
+    text-align:left;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .content3{
+    color: white;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 30px;
+  }
+
+  /*section2*/
+
+  .moon-img{
+    height: 300px;
+  }
+
+  .satellite{
+    display: flex;
+    text-align: justify;
+    
+}
